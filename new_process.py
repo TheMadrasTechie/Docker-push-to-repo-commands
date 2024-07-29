@@ -2,10 +2,10 @@ import os
 import subprocess
 
 # Path to the directory containing the .tar files
-tar_files_path = 'D:\\python\\upwork\\AWS reognize with docker\\Docker_images'
+tar_files_path = 'path to the location of tar.'
 
 # Docker repository
-repository = 'themadrastechie/face_recognition'
+repository = 'Docker_repo'
 
 # Get the list of .tar files in the directory
 tar_files = [f for f in os.listdir(tar_files_path) if f.endswith('.tar')]
